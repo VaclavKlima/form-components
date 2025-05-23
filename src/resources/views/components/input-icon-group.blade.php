@@ -6,15 +6,13 @@
         {{ $slot }}
         @if(!empty($icon) || $icon?->hasActualContent())
             @if(is_string($icon))
-                <div>
-                <span class="input-group-text h-100 pointer-events-none">
+                <span class="input-group-text">
                     @if($isIcon())
                         <i class="{{ $icon }}"></i>
                     @else
                         {{ $icon }}
                     @endif
                 </span>
-                </div>
             @else
                 <div>
                     {{ $icon }}
