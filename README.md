@@ -10,6 +10,13 @@ Install the package using Composer:
 composer require dragan/form-components
 ```
 
+## Features
+- Easy-to-use form components for Laravel applications.
+- Supports various form fields such as text, email, password, textarea, select, checkbox, radio, and file input.
+- Automatic handling of old input values.
+- Supports form model binding.
+- Customizable attributes for each form field.
+
 ## Usage
 ### Form opening and closing
 
